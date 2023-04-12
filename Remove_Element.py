@@ -15,7 +15,7 @@ list = [3,2,2,3]
      
 print ("original list : "+ str(list))
  
-# to remove list element 9
+# to remove list element
 list = [ele for ele in list if ele != 3]
      
 # Printing list after removal
