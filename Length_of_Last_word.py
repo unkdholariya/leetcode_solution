@@ -24,5 +24,5 @@ class Solution():
         return l
     
 print("output1_______",Solution.lengthOfLastWord("Hello World"))
-print("output1_______",Solution.lengthOfLastWord("   fly me   to   the moon  "))
+print("output2_______",Solution.lengthOfLastWord("   fly me   to   the moon  "))
 
