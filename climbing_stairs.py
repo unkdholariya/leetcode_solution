@@ -22,7 +22,7 @@ def climbing_stairs(n):
         return n
     return climbing_stairs(n-1) + climbing_stairs(n-2)
  
-def countWays(s):
+def countWays(s):   
     return climbing_stairs(s + 1)
 
 s = 2
